@@ -13,18 +13,26 @@
 
 - Idea IDE https://www.jetbrains.com/idea/download/
 
-### For Mac
+#### For Mac
 - Home brew -- https://docs.brew.sh/Installation
 - Java `brew install openjdk@11`
 - Node -- `brew install node`
 - AngularCLI -- `npm install -g @angular/cli`
 - Docker Desktop -- https://docs.docker.com/desktop/install/mac-install/
 
-### For Windows
+#### For Windows
 - Open JDK https://developers.redhat.com/content-gateway/file/openjdk/17.0.7/java-17-openjdk-17.0.7.0.7-1.win.x86_64.zip
 - Node -- https://nodejs.org/en/download
 - AngularCLI -- `npm install -g @angular/cli`
 - Docker Desktop https://docs.docker.com/desktop/install/windows-install/
+
+
+### Getting started with Idea and Gradle
+ - Open Idea
+ - Select file -> New Project from Source Control
+ - Paste https://github.com/treemark/SpringBootAngularStack.git into the URL field
+ - Click 'terminal' tab at the bottom of Idea IDE.
+ - Type: `./gradlew assemble at the command line
 
 #### To create a new UI module
 
