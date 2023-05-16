@@ -1,6 +1,18 @@
-A full stack demonstration of spring boot and angular. 
 
-This project is an opensource example used for training purposes for Autonoma Consulting LLC
-- Swagger and openAPI generator used to create angular stubs for comminitation with the service
-- A containerized unit test framework supplied by docker-compse and junit
-- 
+# A full stack demonstration of spring boot and angular. 
+
+### This project is an opensource example used for training purposes for Autonoma Consulting LLC
+
+#### Demonstrated features include:
+- Swagger and openAPI genereted angular stub for back-end communication/orchestration layer
+- A containerized unit test framework supplied by docker-compose, Mockito and junit
+- A gradle build framework that manages both angular and spring projects in a single repo
+
+
+On MacOs the following commands will install node and angular CLI tools
+
+`brew install node`
+
+`npm install -g @angular/cli`
+
+`ng  new front-end`
