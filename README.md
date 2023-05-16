@@ -18,5 +18,5 @@ On MacOs the following commands will install node and angular CLI tools
 
 #### To create a new UI module
 
-`ng  new front-end`
+`ng  new <ui module name>
 
