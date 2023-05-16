@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url 'https://plugins.gradle.org/m2' }
+    }
+}
+
+//subprojects {
+    plugins {
+        //id 'org.springframework.boot' version '2.5.3'
+        id 'java'
+        id 'idea'
+        id 'maven-publish'
+        id "com.gorylenko.gradle-git-properties" version "2.3.2"
+        id 'java-library'
+    }
+//}

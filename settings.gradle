@@ -1,0 +1,5 @@
+rootProject.name = 'SpringBootAngularStack'
+
+include ":service"
+include ":front-end"
+include ":toh-pt6"
