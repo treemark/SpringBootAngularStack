@@ -9,7 +9,7 @@
 - A gradle build framework that manages both angular and spring projects in a single repo
 
 
-### Prerequisates
+### Prerequisites
 
 - Idea IDE https://www.jetbrains.com/idea/download/
 
@@ -21,9 +21,9 @@
 - Docker Desktop -- https://docs.docker.com/desktop/install/mac-install/
 
 ### For Windows
---Open JDK https://developers.redhat.com/content-gateway/file/openjdk/17.0.7/java-17-openjdk-17.0.7.0.7-1.win.x86_64.zip
-- Node
-- AngularCLI
+- Open JDK https://developers.redhat.com/content-gateway/file/openjdk/17.0.7/java-17-openjdk-17.0.7.0.7-1.win.x86_64.zip
+- Node -- https://nodejs.org/en/download
+- AngularCLI -- `npm install -g @angular/cli`
 - Docker Desktop https://docs.docker.com/desktop/install/windows-install/
 
 #### To create a new UI module
