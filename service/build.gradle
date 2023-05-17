@@ -6,3 +6,7 @@ plugins {
     id "com.gorylenko.gradle-git-properties" version "2.3.2"
     id 'java-library'
 }
+
+dependencies {
+    implementation project(":core")
+}

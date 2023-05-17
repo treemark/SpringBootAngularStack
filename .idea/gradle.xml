@@ -7,6 +7,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/front-end" />
             <option value="$PROJECT_DIR$/service" />
             <option value="$PROJECT_DIR$/toh-pt6" />
