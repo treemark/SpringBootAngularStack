@@ -1,7 +1,7 @@
 
 # A full stack demonstration of spring boot and angular. 
 
-### This project is an opensource example used for training purposes for Autonoma Consulting LLC
+### This project is an opensource example for anyone wishing to learn about full stack web development
 
 #### Demonstrated features include:
 - Swagger and openAPI generated angular stub for back-end communication/orchestration layer
