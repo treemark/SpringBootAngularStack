@@ -19,6 +19,7 @@
 - Node -- `brew install node`
 - AngularCLI -- `npm install -g @angular/cli`
 - Docker Desktop -- https://docs.docker.com/desktop/install/mac-install/
+- Configure your JAVA_HOME variable: ``export JAVA_HOME=`/usr/libexec/java_home -v 17` ``
 
 #### For Windows
 - Open JDK -- https://jdk.java.net/19/
