@@ -25,20 +25,8 @@ public class SampleController {
     @Autowired
     private SampleService sampleService;
 
-    @Value("${demo.test}")
-    String demoTest;
-
-    @Value("${demo.test1}")
-    String demoTest1;
-
-    @Value("${demo.test2}")
-    String demoTest2;
 
     @RequestMapping(value = "/sayHello", method = PUT, consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
-    @ApiResponses(value = {@ApiResponse(code = 200, message = "The update call is Successful"),
-            @ApiResponse(code = 500, message = "The update call Failed"),
-            @ApiResponse(code = 404, message = "The API could not be found"),
-            @ApiResponse(code = 400, message = "Invalid input")})
     public String sayHello(@RequestBody String toWhom) {
         return "Hello " + toWhom;
     }

@@ -34,6 +34,11 @@
  - Click 'terminal' tab at the bottom of Idea IDE.
  - Type: `./gradlew assemble at the command line
 
+### Starting the webserver from inside idea
+ - Find the ServiceApplication class 
+ - right click and select run ServiceApplcation.main()
+ - Open web browser and type http://localhost:8080/sample-api/swagger-ui/index.html to see available endpoints
+
 #### To create a new UI module
 
 `ng  new <ui module name>`
