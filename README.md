@@ -32,7 +32,7 @@
  - Select file -> New Project from Source Control
  - Paste https://github.com/treemark/SpringBootAngularStack.git into the URL field
  - Click 'terminal' tab at the bottom of Idea IDE.
- - Type: `./gradlew assemble at the command line
+ - Type: `./gradlew assemble at the command line`
 
 ### Starting the webserver from inside idea
  - Find the ServiceApplication class 
